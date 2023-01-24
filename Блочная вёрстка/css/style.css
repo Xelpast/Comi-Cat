@@ -196,15 +196,16 @@ h3 {
     margin-left: 24px;
 }
 .pop-up-body input {
+	height: 33px;
 	display: block;
-    margin: 30px 0px 0px 33px;
+    margin: 30px auto 0px;
 	width: 330px;
-	padding: 17px 20px;
+	padding: 10px;
 	background-color: rgb(197, 197, 208);
 	border-radius: 10px;
 	border: none;
 	font-weight: 500;
-	font-size: 18px;
+	font-size: 20px;
 	color: rgb(65, 65, 65);
 }
 
@@ -217,7 +218,7 @@ h3 {
 	cursor: pointer;
 	display: block;
 	width: 330px;
-	margin: 60px auto 0px auto;
+	margin: 40px auto 0px auto;
 	padding: 20px 0px;
 	font-weight: 500;
 	font-size: 20px;
@@ -344,14 +345,20 @@ input[name="r"] {
 	cursor: pointer;
 	opacity: .3;
     margin-top: 25px;
+	position: absolute;
+    right: 70px;
+    top: 17px;
 }
+.btn--pass.activ{
+	opacity: 1;
+}
+
 .fa-eye::before{
     font-size: 24px;
 }
-.btn--pass.active {
-	opacity: 1;
-}
+
 .input--wrapper{
+	position: relative;
     display: flex;
 }
 form{

@@ -7,8 +7,9 @@ openPopUp.addEventListener('click', (e) => {
 	popUp.classList.add('active');
 })
 
-closePopUp.addEventListener('click', () => {
+closePopUp.addEventListener('click', (e) => {
 	popUp.classList.remove('active');
+	e.preventDefault();
 })
 
 const openPopUp1 = document.getElementById('open-pop-up1');
@@ -21,8 +22,9 @@ openPopUp1.addEventListener('click', (e) => {
 	popUp.classList.remove('active');
 })
 
-closePopUp1.addEventListener('click', () => {
+closePopUp1.addEventListener('click', (e) => {
 	popUp1.classList.remove('active');
+	e.preventDefault();
 })
 //Password	
 let btnPass = document.querySelector('.js-btn-password');
@@ -39,3 +41,20 @@ btnPass.onclick = function () {
 		btnPass.classList.remove('activ')
 	}
 }
+
+let regBtnPass = document.querySelectorAll('.js-regbtn-password');
+
+regBtnPass.forEach(function (btn) {
+	btn.onclick = function () {
+		let target = this.getAttribute('data-target');
+			inputPass = document.querySelector(target);
+
+			if (inputPass.getAttribute('type') === 'password') {
+				inputPass.setAttribute('type', 'text');
+				btn.classList.add('activ')
+			} else {
+				inputPass.setAttribute('type', 'password')
+				btn.classList.remove('activ')
+			}
+	}
+});
