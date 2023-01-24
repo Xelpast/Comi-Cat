@@ -63,7 +63,7 @@ a:hover {
 }
 
 .center-img {
-	max-width: 800px;
+	max-width: 700px;
 }
 
 .zoo {
@@ -77,6 +77,7 @@ a:hover {
 	padding: 15px;
 	border-radius: 20px;
 	background-color: rgb(251, 220, 181);
+    max-width: 700px;
 }
 
 .footer {
