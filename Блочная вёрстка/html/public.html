@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="/Блочная вёрстка/css/style.css">
 	<link rel="stylesheet" href="/Блочная вёрстка/js/index.js">
 	<link href="/Блочная вёрстка/icon/cat.ico" rel="shortcut icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />	
 	<title>Котики (^◔ᴥ◔^)</title>
 </head>
 
@@ -26,8 +27,13 @@
 					<div class="pop-up-body">
 						<p>Войти</p>
 						<form action="">
-							<input type="text" placeholder="Электронная почта">
-							<input type="password" placeholder="Пароль">
+							<input type="text" class="input--wrapper" placeholder="Электронная почта">
+							<div class="input--wrapper">
+								<input type="password" class="js-password-input passwor-vin"> 
+								<button class="btn--pass js-btn-password">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</button>
+							</div>
 							<button class="button1">Войти</button>
 							<a href="#" id="open-pop-up1"><button class="button2">Зарегистрироваться</button></a>
 						</form>
@@ -43,9 +49,19 @@
 					<div class="pop-up-body">
 						<p>Регистрация</p>
 						<form action="">
-							<input type="text" placeholder="Электронная почта">
-							<input type="password" placeholder="Пароль">
-							<input type="password" placeholder="Повторить пароль">
+							<input class="input--wrapper" type="text" placeholder="Электронная почта">
+							<div class="input--wrapper">
+								<input type="password" class="js-password-input passwor-vin"> 
+								<button class="btn--pass js-btn-password">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</button>
+							</div>
+							<div class="input--wrapper">
+								<input type="password" class="js-password-input passwor-vin"> 
+								<button class="btn--pass js-btn-password">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</button>
+							</div>
 							<button class="button2">Зарегистрироваться</button>
 						</form>
 						<div class="pop-up-close" id="pop-up-close1">
@@ -163,9 +179,9 @@
 			</div>
 			<div class="page">
 				<div class="input--wrapper">
-					<input type="password" class="js-password-input passwor-vin">
+					<input type="password" class="js-password-input passwor-vin"> 
 					<button class="btn--pass js-btn-password">
-						<img width="100px" class="eye" src="/Блочная вёрстка/img/eye-svgrepo-com.svg" alt="">
+						<i class="fa fa-eye" aria-hidden="true"></i>
 					</button>
 				</div>
 			</div>

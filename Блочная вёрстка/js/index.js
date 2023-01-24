@@ -24,7 +24,7 @@ openPopUp1.addEventListener('click', (e) => {
 closePopUp1.addEventListener('click', () => {
 	popUp1.classList.remove('active');
 })
-
+//Password	
 let btnPass = document.querySelector('.js-btn-password');
 inputPass = document.querySelector('.js-password-input');
 
@@ -33,9 +33,9 @@ inputPass = document.querySelector('.js-password-input');
 btnPass.onclick = function () {
 	if (inputPass.getAttribute('type') === 'password') {
 		inputPass.setAttribute('type', 'text');
-		btnPass.classList.add('active')
+		btnPass.classList.add('activ')
 	} else {
 		inputPass.setAttribute('type', 'password')
-		btnPass.classList.remove('active')
+		btnPass.classList.remove('activ')
 	}
 }
