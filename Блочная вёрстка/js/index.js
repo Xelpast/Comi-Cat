@@ -1,6 +1,6 @@
-const openPopUp = document.getElementById('open_pop_up');
-const closePopUp = document.getElementById('pop_up_close');
-const popUp = document.getElementById('pop_up');
+const openPopUp = document.getElementById('open-pop-up');
+const closePopUp = document.getElementById('pop-up-close');
+const popUp = document.getElementById('pop-up');
 
 openPopUp.addEventListener('click', (e) => {
 	e.preventDefault();
@@ -11,9 +11,9 @@ closePopUp.addEventListener('click', () => {
 	popUp.classList.remove('active');
 })
 
-const openPopUp1 = document.getElementById('open_pop_up1');
-const closePopUp1 = document.getElementById('pop_up_close1');
-const popUp1 = document.getElementById('pop_up1');
+const openPopUp1 = document.getElementById('open-pop-up1');
+const closePopUp1 = document.getElementById('pop-up-close1');
+const popUp1 = document.getElementById('pop-up1');
 
 openPopUp1.addEventListener('click', (e) => {
 	e.preventDefault();
@@ -24,3 +24,18 @@ openPopUp1.addEventListener('click', (e) => {
 closePopUp1.addEventListener('click', () => {
 	popUp1.classList.remove('active');
 })
+
+let btnPass = document.querySelector('.js-btn-password');
+inputPass = document.querySelector('.js-password-input');
+
+// console.log(inputPass.getAttribute('type'));
+
+btnPass.onclick = function () {
+	if (inputPass.getAttribute('type') === 'password') {
+		inputPass.setAttribute('type', 'text');
+		btnPass.classList.add('active')
+	} else {
+		inputPass.setAttribute('type', 'password')
+		btnPass.classList.remove('active')
+	}
+}
