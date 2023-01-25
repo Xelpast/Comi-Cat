@@ -111,7 +111,8 @@ a:hover {
 	margin: 15px auto;
 	width: 300px;
 	border-radius: 10px;
-
+	transition: 0.3s;
+	border-radius: 10px;
 }
 
 .kot-porod:hover {
