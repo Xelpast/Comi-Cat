@@ -9,17 +9,17 @@
 </head>
 
 <body>
-	<div class="head">
-		<div class="head_1">
+	<div class="header">
+		<div class="header_1">
 			<img class="log" src="/icon/free-icon-pet-shop-1279258.ico" alt="">
 			<img src="/img/darvin zoo(fon).png" alt="">
 		</div>
-		<div class="head_2"> <img src="/icon/user.ico" alt=""></div>
+		<div class="header_2"> <img src="/icon/user.ico" alt=""></div>
 	</div>
 
 	<div class="center">
 		<div class="center_1">
-			<img src="/img/reklama.jpg" alt="">
+			
 		</div>
 		<div class="center_2">
 			<div class="tovar_1"></div>

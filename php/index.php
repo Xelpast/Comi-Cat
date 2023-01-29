@@ -21,23 +21,29 @@
 				src="/img/comi cat.png" alt=""></div>
 		<div class="header"> <img class="kotic" width="375px" src="/img/всё про котиков.png" alt=""></div>
 		<div class="header">
+
+			<form	action="login.php" method="post">
 			<div class="button">
-				<a id="open-pop-up" href="#"><img class="vxod" width="120px" src="/img/вход.png" alt=""></a>
+				<a id="open-pop-up" href=""><img class="vxod" width="120px" src="/img/вход.png" alt=""></a>
 			</div>
 			<div class="pop-up" id="pop-up">
 				<div class="pop-up-container" id="open-pop-up">
 					<div class="pop-up-body">
 						<p>Войти</p>
 						<form onsubmit="" action="">
-							<input type="text" class="input--wrapper" placeholder="Электронная почта">
+							<input  type="text" name="uname" class="input--wrapper" placeholder="Электронная почта">
 							<div class="input--wrapper">
-								<input type="password" class="js-password-input passwor-vin" placeholder="Пароль" > 
-								<button type="button" class="btn--pass js-btn-password" >
+								<input  type="password" name="password" class="js-password-input passwor-vin" placeholder="Пароль" > 
+								<button class="btn--pass js-btn-password" >
 									<i class="fa fa-eye" aria-hidden="true"></i>
 								</button>
 							</div>
-							<button type="button" class="button1">Войти</button>
+							<button class="button1">Войти</button>
+							
 							<a href="#" id="open-pop-up1"><button class="button2">Зарегистрироваться</button></a>
+							<?php if (isset($_GET['error'])) { ?>
+                                <p class="error"><?php echo $_GET['error']; ?></p>
+                            <?php } ?>
 						</form>
 						<div class="pop-up-close" id="pop-up-close">
 							&#10006
@@ -45,26 +51,34 @@
 					</div>
 				</div>
 			</div>
+		</form>
 
+		<form action="signup-check.php" method="post">
 			<div class="pop-up" id="pop-up1">
 				<div class="pop-up-container" id="open-pop-up1">
 					<div class="pop-up-body">
 						<p>Регистрация</p>
 						<form action="">
-							<input class="input--wrapper" type="text" placeholder="Электронная почта">
+							<input class="input--wrapper" type="text" name="uname" placeholder="Электронная почта">
 							<div class="input--wrapper">
-								<input placeholder="Пароль"  type="password" id="js-first-password"> 
+								<input  placeholder="Пароль" name="password" type="password" id="js-first-password"> 
 								<button type="button" class="btn--pass js-regbtn-password" data-target="#js-first-password">
 									<i class="fa fa-eye" aria-hidden="true"></i>
 								</button>
 							</div>
 							<div class="input--wrapper">
-								<input placeholder="Повторите пароль" type="password" id="js-second-password"> 
+								<input  placeholder="Повторите пароль" name="re_password" type="password" id="js-second-password"> 
 								<button type="button" class="btn--pass js-regbtn-password" data-target="#js-second-password">
 									<i class="fa fa-eye" aria-hidden="true"></i>
 								</button>
 							</div>
 							<button class="button2">Зарегистрироваться</button>
+							<?php if (isset($_GET['error_signup'])) { ?>
+                                <p class="error_signup"><?php echo $_GET['error_signup']; ?></p>
+                            <?php } ?>
+							<?php if (isset($_GET['success'])) { ?>
+                                <p class="success"><?php echo $_GET['success']; ?></p>
+                            <?php } ?>
 						</form>
 						<div class="pop-up-close" id="pop-up-close1">
 							&#10006
@@ -72,7 +86,7 @@
 					</div>
 				</div>
 			</div>
-
+		</form>
 		</div>
 	</div>
 	<div class="center">

@@ -77,7 +77,7 @@ a:hover {
 	padding: 15px;
 	border-radius: 20px;
 	background-color: rgb(251, 220, 181);
-    max-width: 700px;
+	max-width: 700px;
 }
 
 .footer {
@@ -193,13 +193,15 @@ h3 {
 	font-weight: 600;
 	color: black;
 }
-.email{
-    margin-left: 24px;
+
+.email {
+	margin-left: 24px;
 }
+
 .pop-up-body input {
 	height: 33px;
 	display: block;
-    margin: 30px auto 0px;
+	margin: 30px auto 0px;
 	width: 330px;
 	padding: 10px;
 	background-color: rgb(197, 197, 208);
@@ -345,23 +347,21 @@ input[name="r"] {
 	padding: 0;
 	cursor: pointer;
 	opacity: .3;
-    margin-top: 25px;
+	margin-top: 25px;
 	position: absolute;
-    right: 70px;
-    top: 17px;
+	right: 70px;
+	top: 17px;
 }
-.btn--pass.activ{
+
+.btn--pass.activ {
 	opacity: 1;
 }
 
-.fa-eye::before{
-    font-size: 24px;
+.fa-eye::before {
+	font-size: 24px;
 }
 
-.input--wrapper{
+.input--wrapper {
 	position: relative;
-    display: flex;
-}
-form{
-    padding: 30px;
+	display: flex;
 }

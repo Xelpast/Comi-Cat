@@ -5,7 +5,7 @@ body {
 	transition: 0.3s;
 }
 
-.head {
+.header {
 	background-color: rgb(150, 213, 255);
 	display: flex;
 	align-items: row;
@@ -13,7 +13,7 @@ body {
 	border-bottom: 3px solid;
 }
 
-.head_2 {
+.header_2 {
 	padding: 10px 10px 0px 0px;
 }
 
@@ -27,9 +27,8 @@ body {
 .center_1 {
 	width: 100px;
 	height: 100px;
+	color: #000;
 }
-
-
 
 .log {
 	width: 90px;
