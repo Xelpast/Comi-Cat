@@ -49,6 +49,8 @@
 		<a href="*" class="vibor">asdas</a>
 	</div>
 	<?php require '../public/tovar.php' ?>
+</div>
+	
 
 <div class="podval">
 	Информация о нас
