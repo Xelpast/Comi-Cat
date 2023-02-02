@@ -185,3 +185,13 @@ button {
 	font-size: 22px;
 	border-radius: 10px 10px 0px 0px;
 }
+
+
+
+.admin {
+	width: 100px;
+	height: 50px;
+	background-color: antiquewhite;
+	margin: 0px auto;
+	text-align: center;
+}

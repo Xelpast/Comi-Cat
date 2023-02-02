@@ -16,7 +16,9 @@
 		</div>
 		<div class="header_2"> <img src="/icon/user.ico" alt=""></div>
 	</div>
-
+<button class="admin"><a class="admin_a" href="/php/admin.html">
+	Admin
+</button></a>
 <div class="slaider1">
 	<div class="sidebar middle">
 		<div class="slaider">

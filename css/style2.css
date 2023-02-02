@@ -1,0 +1,76 @@
+.admin {
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
+.pop-up-body {
+	margin: auto;
+	width: 500px;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+}
+
+.pop-up-body p {
+	font-size: 28px;
+	font-weight: 600;
+	color: black;
+}
+
+.email {
+	margin-left: 24px;
+}
+
+.pop-up-body input {
+	height: 33px;
+	display: block;
+	margin: 30px auto 0px;
+	width: 330px;
+	padding: 10px;
+	background-color: rgb(216, 216, 223);
+	border-radius: 10px;
+	border: none;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgb(65, 65, 65);
+}
+
+.pop-up-body input:focus {
+	outline: none;
+	box-shadow: 2px 3px 2px 0.1px rgba(0, 0, 0, 0.527);
+	transition: 0.3s;
+}
+
+.pop-up-body .button1 {
+	cursor: pointer;
+	display: block;
+	width: 330px;
+	margin: 40px auto 0px auto;
+	padding: 20px 0px;
+	font-weight: 500;
+	font-size: 20px;
+	border: none;
+	color: rgb(65, 65, 65);
+	border-radius: 10px;
+	background-color: rgb(255, 212, 94);
+}
+
+.button2 {
+	cursor: pointer;
+	width: 220px;
+	margin: 30px auto 0px;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 20px;
+	border: none;
+	color: rgb(65, 65, 65);
+	border-radius: 10px;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(22, 22, 22);
+}
