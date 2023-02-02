@@ -16,7 +16,7 @@
 		</div>
 		<div class="header_2"> <img src="/icon/user.ico" alt=""></div>
 	</div>
-<button class="admin"><a class="admin_a" href="/php/admin.html">
+<button class="admin"><a class="admin_a" href="../login.php">
 	Admin
 </button></a>
 <div class="slaider1">
@@ -48,135 +48,7 @@
 		<a href="*" class="vibor">asdas</a>
 		<a href="*" class="vibor">asdas</a>
 	</div>
-	<div class="box3">
-		<div class="korm"><a href="#"><img class="korm_img"
-			src="https://lenta.servicecdn.ru/globalassets/1/-/23/65/32/235735_3.png?preset=fulllossywhite" alt="!"></a>
-		<div class="zena">
-		<div class="zenaz">
-			<p> Кошачий корм: <a href="">1024₽</a></p>
-		</div>
-	</div>
-
-	<div class="v-korziny">
-		<button>
-			В корзину
-		</button>
-	</div>
-</div>
-	</div>
-	<div class="box4">
-		<div class="korm"><a href="#"><img class="korm_img"
-					src="https://lenta.servicecdn.ru/globalassets/1/-/23/65/32/235735_3.png?preset=fulllossywhite" alt="!"></a>
-			<div class="zena">
-				<div class="zenaz">
-					<p> Кошачий корм: <a href="">1024₽</a></p>
-				</div>
-			</div>
-		
-			<div class="v-korziny">
-				<button>
-					В корзину
-				</button>
-			</div>
-		</div>
-</div>
-	<div class="box5">
-	<div class="korm"><a href="#"><img class="korm_img"
-				src="https://lenta.servicecdn.ru/globalassets/1/-/23/65/32/235735_3.png?preset=fulllossywhite" alt="!"></a>
-		<div class="zena">
-			<div class="zenaz">
-				<p> Кошачий корм: <a href="">1024₽</a></p>
-			</div>
-		</div>
-	
-		<div class="v-korziny">
-			<button>
-				В корзину
-			</button>
-		</div>
-	</div>
-</div>
-	<div class="box6">
-			<div class="korm"><a href="#"><img class="korm_img"
-						src="https://lenta.servicecdn.ru/globalassets/1/-/23/65/32/235735_3.png?preset=fulllossywhite" alt="!"></a>
-				<div class="zena">
-					<div class="zenaz">
-						<p> Кошачий корм: <a href="">1024₽</a></p>
-					</div>
-				</div>
-			
-				<div class="v-korziny">
-					<button>
-						В корзину
-					</button>
-				</div>
-			</div>
-	</div>
-	<div class="box7">
-			<div class="korm"><a href="#"><img class="korm_img"
-						src="https://lenta.servicecdn.ru/globalassets/1/-/23/65/32/235735_3.png?preset=fulllossywhite" alt="!"></a>
-				<div class="zena">
-					<div class="zenaz">
-						<p> Кошачий корм: <a href="">1024₽</a></p>
-					</div>
-				</div>
-			
-				<div class="v-korziny">
-					<button>
-						В корзину
-					</button>
-				</div>
-			</div>
-			</div>
-	<div class="box8">
-			<div class="korm"><a href="#"><img class="korm_img"
-						src="https://lenta.servicecdn.ru/globalassets/1/-/23/65/32/235735_3.png?preset=fulllossywhite" alt="!"></a>
-				<div class="zena">
-					<div class="zenaz">
-						<p> Кошачий корм: <a href="">1024₽</a></p>
-					</div>
-				</div>
-			
-				<div class="v-korziny">
-					<button>
-						В корзину
-					</button>
-				</div>
-			</div>
-	</div>
-	<div class="box9">
-			<div class="korm"><a href="#"><img class="korm_img"
-						src="https://lenta.servicecdn.ru/globalassets/1/-/23/65/32/235735_3.png?preset=fulllossywhite" alt="!"></a>
-				<div class="zena">
-					<div class="zenaz">
-						<p> Кошачий корм: <a href="">1024₽</a></p>
-					</div>
-				</div>
-			
-				<div class="v-korziny">
-					<button>
-						В корзину
-					</button>
-				</div>
-			</div>
-			</div>
-	<div class="box9">
-			<div class="korm"><a href="#"><img class="korm_img"
-						src="https://lenta.servicecdn.ru/globalassets/1/-/23/65/32/235735_3.png?preset=fulllossywhite" alt="!"></a>
-				<div class="zena">
-					<div class="zenaz">
-						<p> Кошачий корм: <a href="">1024₽</a></p>
-					</div>
-				</div>
-			
-				<div class="v-korziny">
-					<button>
-						В корзину
-					</button>
-				</div>
-			</div>
-</div>
-</div>	
+	<?php require '../public/tovar.php' ?>
 
 <div class="podval">
 	Информация о нас

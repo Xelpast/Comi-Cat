@@ -145,7 +145,7 @@
 				<h2>Наши магазины</h2>
 				<div class="footer">
 					<div class="porod1">
-						<a href="/php/index1.html"><img class="kot-porod" src="/img/darvin zoo.png" alt=""></a>
+						<a href="/php/index1.php"><img class="kot-porod" src="/img/darvin zoo.png" alt=""></a>
 					</div>
 					<div class="porod1">
 						<img class="kot-porod" src="/img/зоосфера.webp" alt="">
