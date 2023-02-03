@@ -7,7 +7,7 @@
 	<title>Админка товаров</title>
 </head>
 <body>
-	<h1 style="text-align:center; font-size=24px;">Редактирование контактной информации</h1>
+	<h1 style="text-align:center; font-size=24px;">Редактирование товаров</h1>
 <div style="text-align:center; font-size=24px;">
 
 <?php if(!empty ($_SESSION["login"])) :?>
@@ -21,14 +21,20 @@ $sql = $pdo->prepare("SELECT * FROM tovar");
 $sql->execute();
 $res = $sql->fetch(PDO::FETCH_OBJ);
 ?>
-<form action="/admin/admin_tovar/admin_tovar.php" method="post">
+<form action="/admin/admin_tovar/admin_tovar.php" method="post" enctype="multipart/form-data">
 
-	<input type="text" name="img" value="<?php echo $res->img ?>">
-	<input type="text" name="korm" value="<?php echo $res->korm ?>">
-	<input type="text" name="price" value="<?php echo $res->price ?>">
-	<input type="submit" value="сохранить" >
+	<p>
+		<input type="file" name="im">
+	</p>
+
+	<input type="text" name="img" value="<?php echo $res->img ?>"><br>
+	<input type="text" name="korm" value="<?php echo $res->korm ?>"><br>
+	<input type="text" name="price" value="<?php echo $res->price ?>"><br>
+	<input type="submit" name="save" value="сохранить" >
 
 </form>
+<br>
+<img src="/admin_tovar/img/<?php echo $res->img ?>"
 
 <?php
 	$img=$_POST["img"];
