@@ -13,7 +13,10 @@
 
 <?php echo "Вы в админке ".$_SESSION['login']; ?>
 	<br>
-<a href="/logout.php"> Выйти из админки</a>
+<a href="/logout.php"> Выйти</a>
+<br>
+<a href="/admin/admin_tovar.php">Товары</a>
+
 <?php else:
 	echo '<h2>Вы не админ</h2>';
 	echo '<a href="/">На главную</a>';
