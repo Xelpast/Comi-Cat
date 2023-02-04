@@ -91,7 +91,7 @@
 	</div>
 	<div class="center">
 		<div width="400px" height="100%">
-			pqofqioj
+			
 		</div>
 	<div class="center">
 		<div class="center_img"> 
@@ -115,7 +115,7 @@
 	</div>
 
 				<div class="center">
-					asdas
+				
 				</div>
 			</div>
 			<div class="porod">

@@ -15,7 +15,7 @@
 	<br>
 <a href="/logout.php"> Выйти</a>
 <br>
-<a href="/admin/admin_tovar.php">Товары</a>
+<a href="/admin/osnova.php">Товары</a>
 
 <?php else:
 	echo '<h2>Вы не админ</h2>';

@@ -41,17 +41,13 @@
 </div>	
 
 <div class="wrapper">
-	<div class="box2">
-		<a href="*" class="vibor">asdas</a>
-		<a href="*" class="vibor">asdas</a>
-		<a href="*" class="vibor">asdas</a>
-		<a href="*" class="vibor">asdas</a>
-		<a href="*" class="vibor">asdas</a>
-	</div>
 	<?php require '../public/tovar.php' ?>
 </div>
 	
 
+
+</div>
+</div>
 <div class="podval">
 	Информация о нас
 	<ul>
@@ -59,9 +55,6 @@
 		<li>Мы так же в соцсетях: <a href="#">Vk</a>, <a href="#">Telegram</a></li>
 	</ul>
 </div>
-</div>
-</div>
-
 </body>
 
 </html>

@@ -102,11 +102,13 @@ input[name="r"] {
 }
 
 .wrapper {
-	display: grid;
+	margin: 0px auto;
+	width: 400px;
 	grid-template-columns: repeat(5, 1fr);
 }
 
 .box2 {
+	width: 200px;
 	grid-column-start: 1;
 	grid-row-start: 1;
 	grid-row-end: 5;
@@ -158,6 +160,8 @@ button {
 }
 
 .korm {
+	justify-content: center;
+	width: 300px;
 	text-align: center;
 	background-color: rgb(255, 255, 255);
 	margin: 10px;
